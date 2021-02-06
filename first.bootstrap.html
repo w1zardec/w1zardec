@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Первый Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Первый блок (Заголовки, видео и таблица) -->
+<div class="section">
+    <div class="container">
+<!-- Первый row (строка) под заголовок -->
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <h1 class="header text-center">
+                    <span>Получите исходное видео</span>
+                    <strong class="text-uppercase">Варламов, прогулка по Японии</strong>
+                </h1>
+            </div>
+        </div>
+<!-- Второй row (строка) под видео и форму -->
+        <div class="row">
+            <div class="col-lg-6 offset-lg-1">
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/8UT_eiwGMno?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form">
+                    <p><div class="form-header text-center">Введите ваши данные</div></p> 
+                    <form action="#">
+                        <input type="text" class="form-control form-control-lg" placeholder="Ваше имя">
+                        <input type="text" class="form-control form-control-lg" placeholder="Ваш E-mail">
+<!--div class="d-grid" - специальный класс, превращающий кнопку в блочный элемет-->
+                        <div class="d-grid gap-2">
+                        <button class="btn btn-dark btn-lg" type="button">Получить исходник</button>
+                        </div>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+<!-- Второй блок (Заголовок, иконки и кнопка с просмотром инструкции) -->
+<div class="section">
+<!-- Первый row (строка) под заголовок секции -->        
+    <div class="row">
+        <div class="col-lg-12 col-xs-12 col-sm-12">
+            <h2 class="section-header text-uppercase text-center">Зачем вам это?</h2>
+        </div>
+    </div>
+    <div class="container">
+<!-- Подблок с заголовком -->
+        <div   div class="feature text-center">
+<!-- Первый row (строка) под причины -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                      <img src="img/icons8-чистый-100.png" alt="Чистота Японии">
+                        <p>Чистота Японии</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <img src="img/icons8-камера-контроля-скорости-100.png" alt="Хорошая съемка">
+                        <p>Хорошая съемка</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <img src="img/icons8-япония-100.png" alt="Настоящая Япония">
+                        <p>Настоящая Япония</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="feature-box">
+                      <img src="img/icons8-блог-100 (1).png" alt="Настоящий блог">
+                      <p>Настоящий блог</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+<!-- Блок под кнопку с инструкцией -->
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-dark form-btn btn-lg" type="button">Получить исходник</button>
+        </div>    
+    </div>
+</div>
+
+</div>
+</body>
+</html>
